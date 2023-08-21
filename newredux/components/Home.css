@@ -1,0 +1,29 @@
+.btn-wrapper button{
+background-color: red;
+border: 0px;
+border-radius: 12px;
+padding: 10px;
+margin-right: 5px;
+margin-left: 10px;
+justify-content: center;
+color: blue;
+
+}
+.add-to-cart img{
+   width: 70px;
+   position: absolute;
+   right: 1%;
+   top: 1%;
+}
+.cart-count{
+    position: absolute; /*keep span count on cart*/
+    right: 12px;
+    top: 13px;
+    z-index: 1;
+    background-color: rgb(229, 47, 87);
+    height: 28px;
+    width: 32px;
+    color: white;
+    border-radius: 50%;
+    text-align: center;
+}
